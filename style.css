@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  font-family: monospace;
+  background-image: url('weather.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.content {
+  height: 20vh;
+}
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.content {
+  padding: 0.5rem 1rem;
+}
+
+.content > * {
+  margin: 0.5rem 0;
+}
+
+.city {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 1.6rem;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.description,
+.min-max {
+  font-size: 1.6rem;
+}
