@@ -33,6 +33,7 @@ h1 {
 
 .content {
   height: 20vh;
+  padding: 0.5rem 1rem;
 }
 input {
   width: 100%;
@@ -43,10 +44,6 @@ input {
   font-size: 2rem;
   padding: 0.5rem 1rem;
   color: #fff;
-}
-
-.content {
-  padding: 0.5rem 1rem;
 }
 
 .content > * {
